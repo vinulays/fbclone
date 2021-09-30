@@ -5,14 +5,17 @@
 }
 
 .textbox{
-    margin-top: 240px;
-    margin-left: 150px;
+    margin-top: 210px;
+    margin-left: 270px;
 
 }
 h1{
     font-size: 55px;
     color: #1877f2;
-    font-family: sans-serif
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    
 
 }
 h2{
@@ -25,9 +28,9 @@ h2{
 .container{
     
     width: 400px;
-    height: 350px;
+   
     margin-top: -194px;
-    margin-right: 160px;
+    margin-right: 285px;
     float: right;
     border-radius: 12px;
     background-color: white;
@@ -38,11 +41,11 @@ h2{
 
 .form{
     float: right;
-    border-radius: 16px;
+    border-radius: 10px;
     background-color: white;
     margin-top: -12px;
-   
-    
+    box-shadow: 1px 1px  5px grey;
+    height: 313px;
     padding: 20px;
 
 }
@@ -52,26 +55,30 @@ h2{
     border-radius: 8px;
     margin-left: -10px;
     margin-right: -10px;
-    margin-top: 10px;
-    border: 0.1px solid rgb(155, 149, 149);
+    margin-top: -3px;
+    margin-bottom: 14px;
+    border: 0.1px solid rgb(155, 149, 149,0.3);
     background-color: white;
     font-family: sans-serif;
     font-size: 17px;
+    
 }
 
-button{
-    margin-top: 10px;
+#logbtn{
+    margin-top: 1px;
     background-color: #1877f2;
     padding: 16px;
-    width: 100%;
+    width: 366px;
     border-radius: 8px;
     color: white;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
+    font-weight: bold;
 }
 hr{
     margin-top: 20px;
+    opacity: 0.4;
     
 }
 p{
@@ -88,20 +95,36 @@ p a {
     font-family: sans-serif;
     font-size: 14px;
 }
+.forgot:hover{
+    text-decoration: underline;
+}
 
 .btn{
     padding: 25px;
     background-color: white;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 15px;
+    margin-left: 57px;
+    margin-right: 57px;
+    margin-top: -8px;
 }
 
 .btn button{
-    background-color: #1b9c24;
+    background-color: #44b14b;
     border: none;
+    padding: 14px;
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    
 }
 
-.form input:focus{
-    border: 0.5px solid #1877f2;
+input:focus{
+    border: 1.5px solid #1877f2;
+    outline: none;
+    
+    
 }
+
+
