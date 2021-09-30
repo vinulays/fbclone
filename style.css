@@ -9,14 +9,18 @@
     margin-left: 270px;
 
 }
+.textbox img{
+    position: relative;
+    margin-top: -100px;
+    margin-left: -27px;
+    height: 250px;
+    width: 300px;
+}
 h1{
     font-size: 55px;
     color: #1877f2;
     font-family: sans-serif;
     font-weight: bold;
-    
-    
-
 }
 h2{
     font-family: Helvetica,Arial, sans-serif;
@@ -25,15 +29,20 @@ h2{
     line-height: 32px;
     width: 500px;
 }   
+.logodesc{
+    
+    position: absolute;
+    margin-top: -90px;
+}
 .container{
     
-    width: 400px;
+    
    
-    margin-top: -194px;
+    margin-top: -222px;
     margin-right: 285px;
     float: right;
     border-radius: 12px;
-    background-color: white;
+    background-color:#f3f2f2;
     text-align: center;
     
 }
@@ -47,6 +56,7 @@ h2{
     box-shadow: 1px 1px  5px grey;
     height: 313px;
     padding: 20px;
+    width: 360px;
 
 }
 .form input{
@@ -126,5 +136,14 @@ input:focus{
     
     
 }
+.semitxt p{
+    margin-top: 30px;
+    background-color:#f3f2f2;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
 
-
+}
+.semitxt a:hover{
+    text-decoration: underline;
+}
